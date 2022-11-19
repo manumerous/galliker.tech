@@ -206,3 +206,8 @@ keybase:
 download:
   name: Download
   icon: icon-box-add
+googlescholar:
+  name: Google Scholar
+  icon: icon-googlescholar
+  prepend: "https://scholar.google.co.uk/citations?hl=en&user="
+  append: "&view_op=list_works&sortby=pubdate"
