@@ -1,0 +1,17 @@
+current directory: /home/manu/Documents/github/galliker.tech_new/vendor/bundle/ruby/2.7.0/gems/duktape-2.6.0.0/ext/duktape
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20221116-58069-34m7ad.rb extconf.rb
+checking for rb_sym2str()... yes
+creating Makefile
+
+current directory: /home/manu/Documents/github/galliker.tech_new/vendor/bundle/ruby/2.7.0/gems/duktape-2.6.0.0/ext/duktape
+make "DESTDIR=" clean
+
+current directory: /home/manu/Documents/github/galliker.tech_new/vendor/bundle/ruby/2.7.0/gems/duktape-2.6.0.0/ext/duktape
+make "DESTDIR="
+compiling duktape.c
+compiling duktape_ext.c
+linking shared-object duktape_ext.so
+
+current directory: /home/manu/Documents/github/galliker.tech_new/vendor/bundle/ruby/2.7.0/gems/duktape-2.6.0.0/ext/duktape
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 duktape_ext.so ./.gem.20221116-58069-lrpylu

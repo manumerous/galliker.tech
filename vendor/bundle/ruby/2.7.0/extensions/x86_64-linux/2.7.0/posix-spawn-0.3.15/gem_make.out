@@ -1,0 +1,49 @@
+current directory: /home/manu/Documents/github/galliker.tech_new/vendor/bundle/ruby/2.7.0/gems/posix-spawn-0.3.15/ext
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20221116-58069-fcw3oz.rb extconf.rb
+creating Makefile
+
+current directory: /home/manu/Documents/github/galliker.tech_new/vendor/bundle/ruby/2.7.0/gems/posix-spawn-0.3.15/ext
+make "DESTDIR=" clean
+
+current directory: /home/manu/Documents/github/galliker.tech_new/vendor/bundle/ruby/2.7.0/gems/posix-spawn-0.3.15/ext
+make "DESTDIR="
+compiling posix-spawn.c
+posix-spawn.c: In function ‘posixspawn_file_actions_init’:
+posix-spawn.c:226:27: warning: passing argument 2 of ‘rb_hash_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+  226 |  rb_hash_foreach(options, posixspawn_file_actions_operations_iter, (VALUE)fops);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                           |
+      |                           int (*)(VALUE,  VALUE,  posix_spawn_file_actions_t *) {aka int (*)(long unsigned int,  long unsigned int,  struct <anonymous> *)}
+In file included from /usr/include/ruby-2.7.0/ruby/ruby.h:2148,
+                 from /usr/include/ruby-2.7.0/ruby.h:33,
+                 from posix-spawn.c:14:
+/usr/include/ruby-2.7.0/ruby/intern.h:558:29: note: expected ‘int (*)(VALUE,  VALUE,  VALUE)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  long unsigned int)’} but argument is of type ‘int (*)(VALUE,  VALUE,  posix_spawn_file_actions_t *)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  struct <anonymous> *)’}
+  558 | void rb_hash_foreach(VALUE, int (*)(VALUE, VALUE, VALUE), VALUE);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/string.h:495,
+                 from posix-spawn.c:11:
+In function ‘strncpy’,
+    inlined from ‘each_env_i’ at posix-spawn.c:314:3:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+posix-spawn.c: In function ‘each_env_i’:
+posix-spawn.c:277:26: note: length computed here
+  277 |  const size_t name_len = strlen(name);
+      |                          ^~~~~~~~~~~~
+In file included from /usr/include/string.h:495,
+                 from posix-spawn.c:11:
+In function ‘strncpy’,
+    inlined from ‘each_env_i’ at posix-spawn.c:316:3:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:10: warning: ‘__builtin_strncpy’ output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+  106 |   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+posix-spawn.c: In function ‘each_env_i’:
+posix-spawn.c:307:21: note: length computed here
+  307 |   size_t cval_len = strlen(cval);
+      |                     ^~~~~~~~~~~~
+linking shared-object posix_spawn_ext.so
+
+current directory: /home/manu/Documents/github/galliker.tech_new/vendor/bundle/ruby/2.7.0/gems/posix-spawn-0.3.15/ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 posix_spawn_ext.so ./.gem.20221116-58069-jaxfwp
