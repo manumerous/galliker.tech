@@ -111,19 +111,19 @@ awards:
     summary: "Completion of the pilot selection course for aviation talents
       of the Swiss Confederation with full recommendations to become a military or civil pilot by learning and
       applying all aspects of flying a plane from take-off to landing within two weeks."
-skills:
-  - name: "Web Development"
-    level: "Master"
-    keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
-    keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+# skills:
+#   - name: "Web Development"
+#     level: "Master"
+#     keywords:
+#       - "HTML"
+#       - "CSS"
+#       - "Javascript"
+#   - name: "Compression"
+#     level: "Master"
+#     keywords:
+#       - "Mpeg"
+#       - "MP4"
+#       - "GIF"
 languages:
   - language: "English"
     fluency: "Native speaker"
@@ -131,8 +131,8 @@ languages:
     fluency: "Native speaker"
   - language: "French"
     fluency: "professional-working-proficiency"
-interests:
-  - name: "Wildlife"
-    keywords:
-      - "Ferrets"
-      - "Unicorns"
+# interests:
+#   - name: "Wildlife"
+#     keywords:
+#       - "Ferrets"
+#       - "Unicorns"
