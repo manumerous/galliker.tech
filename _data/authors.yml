@@ -2,17 +2,14 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Manuel Yves Galliker
+  email:             manuel@galliker.tech
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    
-    Open `_data/authors.yml` to edit this text.
+    I am a passionate robotics engineer and maker and would love to take you on a journey through my personal projects, 
+    expierences and thoughs on technology ranging all the way from academic research to DIY hacking projects!
 
   # This photo will be used in the about section
   picture:
@@ -29,7 +26,7 @@ author1:
     github:          manumerous
     linkedin:        manuel-galliker
     email:           manuel@galliker.tech
-    googlescholar:   T3vuaNoAAAAJ&hl
+    # googlescholar:   T3vuaNoAAAAJ&hl
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -55,7 +52,7 @@ author1:
     # foursquare:      <number>
     # yelp:            <string>
     stackoverflow:   12828370/manumerous
-    # twitter:         manumerous
+    twitter:         manumerous
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
