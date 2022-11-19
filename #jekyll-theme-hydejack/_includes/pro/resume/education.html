@@ -19,7 +19,7 @@
         {% capture institution %}<span class="bc" {% if edu.endDate.size > 0 %}property="name"{% endif %}>{{ edu.institution }}</span>{% endcapture %}
         {% capture gpa %}<span class="bc">{{ edu.gpa }}</span>{% endcapture %}
         {{ strings.resume.education_title
-          | default:"<!--study_type--> in <!--area--> from <!--institution--> with GPA of <!--gpa-->"
+          | default:"<!--study_type--> in <!--area--> from <!--institution--> <!--gpa-->"
           | replace:"<!--study_type-->", study_type
           | replace:"<!--area-->", area
           | replace:"<!--institution-->", institution
