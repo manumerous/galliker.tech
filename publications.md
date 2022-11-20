@@ -2,7 +2,7 @@
 
 ### Peer-Reviewed Conference Papers
 
-* **MY Galliker**, N Csomay-Shanklin, R Grandia, A J Taylor, F Farshidian, M Hutter and A D Ames. [Bipedal Locomotion with Nonlinear Model Predictive Control: Online Gait Generation using Whole-Body Dynamics](https://arxiv.org/pdf/2203.07429.pdf). In *2022 IEEE-RAS International Conference on Humanoid Robots (Humanoids 2022)*, Okinawa, Japan, November 2022.   
+* **MY Galliker †**, N Csomay-Shanklin †, R Grandia, A J Taylor, F Farshidian, M Hutter and A D Ames. [Bipedal Locomotion with Nonlinear Model Predictive Control: Online Gait Generation using Whole-Body Dynamics](https://arxiv.org/pdf/2203.07429.pdf). In *2022 IEEE-RAS International Conference on Humanoid Robots (Humanoids 2022)*, Okinawa, Japan, November 2022.   
 
 ### ETH Research Collection
 
