@@ -29,7 +29,7 @@ description:           >
   expierences and thoughs on technology from academic research to DIY hacking projects!
 
 # A shorter description for the sidebar.
-tagline:               Robotics Engineer / Researcher / DIY & Open Source Enthusiast
+tagline:               Robotics Controls Engineer / Researcher / Open Source Enthusiast
 
 # A list of keywords for your blog
 keywords:              []
@@ -91,8 +91,8 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg
-accent_color:          rgb(208,168,177)
+accent_image:          /assets/img/DALL-E_BG_4.png
+accent_color:          rgb(108,60,126)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -120,7 +120,7 @@ defaults:
   - scope:
       path:            hyde/
     values:
-      accent_color:    rgb(208,168,177)
+      accent_color:    rgb(108,60,126)
       theme_color:     rgb(33,45,53)
       accent_image:
         background:    rgb(33,45,53)
@@ -273,10 +273,10 @@ hydejack:
     always:            false
 
     # Set to `true` to use the dark theme based on visitors' preference (OS setting).
-    dynamic:           true
+    dynamic:           false
 
     # Set to `true` to allow visitors to switch between light and dark mode.
-    icon:              true
+    icon:              false
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
