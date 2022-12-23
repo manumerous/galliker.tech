@@ -1,15 +1,14 @@
 ---
 layout: resume
-title: Résumé*
+title: Résumé
 description: >
-  This is the `description` of your resume page, as it will be seen by search engines.
-  You'll probably want to modify it in `resume.md`, and maybe set `hide_description` to `true` in the front matter.
+  Résumé of M. Y. Galliker
 hide_description: true
 left_column:
-  - work
-  - volunteer
   - education
+  - work
   - awards
+  - volunteer
 right_column:
   - languages
   - skills
@@ -17,7 +16,7 @@ right_column:
 no_language_icons: false
 no_skill_icons: false
 buttons:
-  print: true
+  print: false
   pdf: /assets/Resume_Manuel_Yves_Galliker_web.pdf
   # For the vCard you can either provide a link to a .vcf file in assets (see `pdf` above),
   # or use `h2vx.com` to generate a vCard on the fly based on the structured data of the resume page.
