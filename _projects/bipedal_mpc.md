@@ -1,10 +1,10 @@
 ---
 layout: project
-title: 'Hydejack Site'
-caption: Dogfooding Hydejack to sell Hydejack.
+title: 'Nonlinear MPC for Bipedal Locomotion'
+caption: Online gait generation using whole-body dynaics.
 description: >
   While Hydejack is built for personal sites, it's versatility allows it to be used a product page as well.
-date: '01-01-2016'
+date: '05-03-2022'
 image: 
   path: /assets/img/projects/hydejack-site.jpg
   srcset: 
