@@ -18,16 +18,11 @@ Over the past few decades, there has been a clear trend towards the use of renew
 Airborne Wind Energy (AWE) represents one family of such innovative approaches.
 
 During the last year of my bachelor studies at ETH Zurich I joined the student project ftero where we developed, designed and pro-
-totyped a small scale AWE system and and investigated various research questions related to flight controls and adaptive lightweight composite structures.
-
-
-
-
-
+totyped a small scale AWE system and investigated various research questions related to flight controls and adaptive lightweight composite structures.
 
 ## Airborne Wind Energy
 
-AWE systems harnesses the power of wind through a wing or kite, connected to the ground via a tether, to generate electricity. Hereby, the power can either be generated onboard, where the energy is harvested by an onboard turbine and generator and conducted to the ground through the tether, or on-ground, where the resulting aerodynamical forces are transferred through the tether to a generatior on the ground.  
+AWE systems harness the power of wind through a wing or kite, connected to the ground via a tether, to generate electricity. Hereby, the power can either be generated onboard, where the energy is harvested by an onboard turbine and generator and conducted to the ground through the tether, or on-ground, where the resulting aerodynamic forces are transferred through the tether to a generator on the ground.  
 
 <p align = "center"><img src = "/assets/img/projects/ftero/power_generation_graphic.png"></p><p align = "center">
 <em>Fig.1 - Onboard power generation (left). Traction and retraction phase of on-ground power generation (right).</em>
@@ -42,7 +37,7 @@ AWE systems have several potential advantages over traditional wind turbine syst
 
 - Unlocking additional wind resources: AWE systems can be deployed in a variety of locations, including deep sea offshore areas, where traditional wind turbines may not be feasible.
 
-Despite their potential benefits, AWE systems are still in the early stages of development and have in 2022 not yet been widely deployed due to several technical and regulatory challenges, including issues related to safety and reliability.
+Despite their potential benefits, AWE systems are still in the early stages of development and have in 2022 not yet been widely deployed due to several technical and regulatory challenges, including issues related to safety and reliability. You can learn more about AWE in [R. Schmehl, "Airborne Wind Energy – An introduction to an emerging technology", 2019](http://awesco.eu/awe-explained/).
 
 ## Project Video
 
