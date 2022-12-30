@@ -2,8 +2,8 @@
 layout: project
 title: 'Nonlinear MPC for Bipedal Locomotion'
 caption: Online gait generation using whole-body dynaics.
-description: >
-  While Hydejack is built for personal sites, it's versatility allows it to be used a product page as well.
+# description: >
+#   While Hydejack is built for personal sites, it's versatility allows it to be used a product page as well.
 date: '05-03-2022'
 image: 
   path: /assets/img/projects/hydejack-site.jpg
@@ -16,3 +16,5 @@ links:
     url: https://hydejack.com/
 sitemap: false
 ---
+
+I am still working on documenting this project.
