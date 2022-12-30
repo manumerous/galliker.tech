@@ -30,7 +30,7 @@ totyped a small scale AWE system and and investigated various research questions
 AWE systems harnesses the power of wind through a wing or kite, connected to the ground via a tether, to generate electricity. Hereby, the power can either be generated onboard, where the energy is harvested by an onboard turbine and generator and conducted to the ground through the tether, or on-ground, where the resulting aerodynamical forces are transferred through the tether to a generatior on the ground.  
 
 <p align = "center"><img src = "/assets/img/projects/ftero/power_generation_graphic.png"></p><p align = "center">
-<em>Fig.1 - Onboard power generation (left). Traction and retraction phase of on-ground power generation (right).<\em>
+<em>Fig.1 - Onboard power generation (left). Traction and retraction phase of on-ground power generation (right).</em>
 </p>
 
 
@@ -46,9 +46,7 @@ Despite their potential benefits, AWE systems are still in the early stages of d
 
 ## Project Video
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/-lBixIJ9kxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- [![Wath the ftero rollout video](https://img.youtube.com/vi/-lBixIJ9kxo/maxresdefault.jpg)](https://www.youtube.com/watch?v=-lBixIJ9kxo) -->
+<iframe width="100%" src="https://www.youtube.com/embed/-lBixIJ9kxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 <!-- 
