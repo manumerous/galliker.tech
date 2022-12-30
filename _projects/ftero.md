@@ -38,7 +38,7 @@ Despite their potential benefits, AWE systems are still in the early stages of d
 
 ## The Focus Project ftero
 
-During the last year of my bachelor studies at ETH Zurich I joined the focus project ftero as one of eight students where we developed, designed and prototyped a small scale AWE system and investigated various research questions related to flight controls and adaptive lightweight composite structures. Hereby we were supported and supervised by the [Autonomous Systems Lab](https://asl.ethz.ch/) of Prof. R. Siegwart and the [Composite Materials and Adaptive Structures Lab](https://structures.ethz.ch/) by Prof. P. Ermanni. 
+During the last year of my bachelor studies at ETH Zurich I joined the focus project ftero which was conducted in three iterations from 2016-2019. In a team of eight students we developed, designed and prototyped a small scale AWE system and investigated various research questions related to flight controls and adaptive lightweight composite structures. Hereby we were supported and supervised by the [Autonomous Systems Lab](https://asl.ethz.ch/) of Prof. R. Siegwart and the [Composite Materials and Adaptive Structures Lab](https://structures.ethz.ch/) by Prof. P. Ermanni. 
 
 We pursued an approach to AWE which encompasses a ground based generator powered by an fixed-wing unmanned aerial vehicle. The kinetic energy of the wind is harvested by the carbon wing in the form of lift. By flying on a spiral path, the wings pull on the tether, there­by actuating the generator, resulting in electrical power generation.
 
