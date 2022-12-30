@@ -46,8 +46,9 @@ Despite their potential benefits, AWE systems are still in the early stages of d
 
 ## Project Video
 
-<iframe width="100%" src="https://www.youtube.com/embed/-lBixIJ9kxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="videoWrapper">
+<iframe src="https://www.youtube.com/embed/-lBixIJ9kxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <!-- 
  To be able to meet the rising demand for renewable energy, innovative solutions are required. For this purpose, the project ftero at ETH Zurich is developing an Airborne Wind Energy System. Using an unmanned aircraft that is tethered to the ground, the system can capture wind energy and turn it into electricity with an efficiency that surpasses conventional wind turbines. The aircraft is carried by the wind like a kite, while a generator on the ground creates electricity by slowly unwinding the tether that connects the two. During nine months, the ftero team comprised of ten bachelor students went through all the steps of product development, from the idea to the finished product. -->
