@@ -54,10 +54,8 @@ We pursued an approach to AWE which encompasses a ground based generator powered
   <em >Fig.2 - Wing structure and electronics (left). Hover Flight test for vertical take-off and landing (right).</em>
 </div> 
 
-During the project had the role of team leader for software and mechatronics where I coordinated our efforts in system modeling, controls, actuation and electronics. 
-
 ### System Modelling and Controls
-For the flight dynamics modelling we extended an established aerodynamic fixed-wing model, consisting of a lift drag model of our UAV obtained from CFD, by the additional tether force. The tether force was implemented as a spring damper system and added to the fixed-wing model in PX4s SITL Gazebo.   
+During the project had the role of team leader for software and mechatronics where I coordinated our efforts in system modeling, controls, actuation and electronics. For the flight dynamics modelling we extended an established aerodynamic fixed-wing model, consisting of a lift drag model of our UAV obtained from CFD, by the additional tether force. The tether force was implemented as a spring damper system and added to the fixed-wing model in PX4s SITL Gazebo.   
 
 On the controls side we used the [Px4 L1 Controller](https://docs.px4.io/main/en/flight_stack/controller_diagrams.html#fixed-wing-position-controller) to generate roll setpoints that keep the UAV on a circular path in the lateral direction. Furthermore our controller had to balance the kinetic and potential energy in order to ensure that the UAV can reach the next apex in the planned trajectory while also maximizing the power output. Here we expored several methodologies including controlling the pitch, angle of attack of the wing, tether force or adapting a [Total Energy Control System (TECS)](https://docs.px4.io/main/en/flight_stack/controller_diagrams.html#fixed-wing-position-controller) approach. The controller was implemented into the PX4 Autopilot in C++ and sucessfully tested on an easy glider platform using a STM32F469 processor.
 
