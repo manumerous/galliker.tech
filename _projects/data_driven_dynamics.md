@@ -7,11 +7,9 @@ caption: Creating a digital-twin from flight logs.
 #   Much of the development is informed from my experience of using it myself, creating a tight feedback loop.
 date: 1 Jun 2021
 image: 
-  path: /assets/img/projects/qwtel.jpg
+  path: /assets/img/projects/data_driven_dynamics/tilt_wing_aero_mini.JPG
   srcset: 
-    1920w: /assets/img/projects/qwtel.jpg
-    960w:  /assets/img/projects/qwtel@0,5x.jpg
-    480w:  /assets/img/projects/qwtel@0,25x.jpg
+    1920w: /assets/img/projects/data_driven_dynamics/tilt_wing_aero_mini.JPG
 links:
   - title: Link
     url: https://qwtel.com/
