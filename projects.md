@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: Selected Projects
+title: Projects
 show_collection: projects
 description: >
   A few selected projects I worked on. 

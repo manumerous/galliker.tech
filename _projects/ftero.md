@@ -12,8 +12,15 @@ image:
 links:
   - title: Link
     url: https://structures.ethz.ch/education/bachelor/focusprojects/focus-project-awe.html
+accent_color: '#9cbee3'
+accent_image: /assets/img/projects/ftero/Clouds-sea-sky_2560x1440_dark.jpg
+background: '#9cbee3'
+theme_color: '#9cbee3'
 sitemap: false
 ---
+
+
+
 Over the past few decades, there has been a clear trend towards the use of renewable energy sources. Energy security and sustainability are major concerns for countries around the world. Despite significant advancements in well-established renewable energy technologies such as wind and solar, there is still a need for innovative solutions that can provide large amounts of electricity at a competitive cost.
 Airborne Wind Energy (AWE) represents one family of such innovative approaches.
 
