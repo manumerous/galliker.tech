@@ -34,7 +34,7 @@ AWE systems have several potential advantages over traditional wind turbine syst
 
 - Unlocking additional wind resources: AWE systems can be deployed in a variety of locations, including deep sea offshore areas, where traditional wind turbines may not be feasible.
 
-Despite their potential benefits, AWE systems are still in the early stages of development and have in 2022 not yet been widely deployed due to several technical and regulatory challenges, including issues related to safety and reliability. You can learn more about AWE in [R. Schmehl, "Airborne Wind Energy – An introduction to an emerging technology", 2019](http://awesco.eu/awe-explained/).
+Despite their potential benefits, AWE systems are still in the early stages of development and have in 2022 not yet been widely deployed due to several technical and regulatory challenges, including issues related to safety and reliability. A more comprehensive overview about AWE can be found in [R. Schmehl, "Airborne Wind Energy – An introduction to an emerging technology", 2019](http://awesco.eu/awe-explained/).
 
 ## The Focus Project ftero
 
