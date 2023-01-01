@@ -15,14 +15,14 @@ Through actively shaping and increasing the accesibility of technology I aim to 
 I am interested in nonlinear control, control theory, machine learning, numerical optimization, mechatronics, embedded systems and electronics.  -->
 ## Feel Free to Explore
 
-* [Blog]{:.heading.flip-title} --- Just a glimpse into my engineering career.
+<!-- * [Blog]{:.heading.flip-title} --- Just a glimpse into my engineering career. -->
 * [Projects]{:.heading.flip-title} --- Assorted Hardware/Software projects.
 * [Publications]{:.heading.flip-title} --- A Collection of my Academic Work
 * [Resume]{:.heading.flip-title} --- Always open for amazing experiences.
 
 {:.related-posts.faded}
 
-[blog]: blog/
+<!-- [blog]: blog/ -->
 [projects]: projects/
 [publications]: publications/
 [resume]: resume/
