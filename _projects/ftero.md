@@ -13,7 +13,7 @@ links:
   - title: Link
     url: https://structures.ethz.ch/education/bachelor/focusprojects/focus-project-awe.html
 accent_color: '#9cbee3'
-accent_image: /assets/img/projects/ftero/Clouds-sea-sky_2560x1440_dark.jpg
+accent_image: /assets/img/projects/ftero/Clouds-sea-sky_2560x1440_dark3.jpg
 background: '#9cbee3'
 theme_color: '#9cbee3'
 sitemap: false

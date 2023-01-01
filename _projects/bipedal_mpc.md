@@ -12,6 +12,10 @@ image:
 links:
   - title: Link
     url: https://hydejack.com/
+accent_color: '#383737'
+accent_image: /assets/img/projects/bipedal_locomotion_mpc/amber.jpg
+background: '#383737'
+theme_color: '#383737'
 sitemap: false
 ---
 
