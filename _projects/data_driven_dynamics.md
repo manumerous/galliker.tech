@@ -7,16 +7,16 @@ caption: Creating a digital-twin from flight logs.
 #   Much of the development is informed from my experience of using it myself, creating a tight feedback loop.
 date: 1 Jun 2021
 image: 
-  path: /assets/img/projects/data_driven_dynamics/tilt_wing_aero_mini.JPG
+  path: /assets/img/projects/data_driven_dynamics/tilt_wing_mountains.png
   srcset: 
-    1920w: /assets/img/projects/data_driven_dynamics/tilt_wing_aero_mini.JPG
+    1920w: /assets/img/projects/data_driven_dynamics/tilt_wing_mountains.png
 links:
   - title: Link
-    url: https://qwtel.com/
-accent_color: '#4fb1ba'
-accent_image:
-  background: '#193747'
-theme_color: '#193747'
+    url: https://github.com/ethz-asl/data-driven-dynamics
+# accent_color: '#4fb1ba'
+# accent_image:
+#   background: '#193747'
+# theme_color: '#193747'
 sitemap: false
 ---
 
