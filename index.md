@@ -6,7 +6,7 @@ hide_description: true
 # Welcome to my Personal Website
 I am a passionate robotics engineer and maker and would love to take you on a journey through my personal projects, expierences and thoughs on technology ranging from academic research to DIY hacking projects!
 
-![](/assets/img/amber_portrait3.png)
+![](/assets/img/amber_portrait3.jpg)
 
 ### „If knowledge can create problems, it is not through ignorance that we can solve them.“ - Isaac Asimov
 
