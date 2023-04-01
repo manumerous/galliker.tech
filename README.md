@@ -3,6 +3,3 @@
 
 Visit my page at [galliker.tech](https://galliker.tech).
 
-<iframe src="https://galliker.tech" width="100%" height="500"></iframe>
-
-<!-- [![Welcome to my Personal Website Manuel Yves Galliker(1)]()](https://galliker.tech) -->
