@@ -72,7 +72,7 @@ where the state vector $$\bm x \in \in \mathbb{R}^13$$  contains the position ve
   <p align="center"><em>Fig.1 - Forces and moments apllying on fixed-wing UAV (by Thomas Stastny).</em></p>
 </div>
 
-As can be seen in equation $$(1)$$ the only unknown that need to be determined are the aerodynamic forces (e.g. thrust, lift, drag) and moments (roll, pitch and yaw) that act on the vehicle.
+As can be seen in equation $$(1)$$ the main unknowns that need to be determined are the aerodynamic forces (e.g. thrust, lift, drag) and moments (roll, pitch and yaw) and inertia tensor. Alternatively to estimating those separately it is also possible to directly estimate the the linear and angular acceleration, which practically lumps the estimation of the moments and inertia tensor together.  
 
 ## Model Structure & Data Quality
 Throughout the course of my research, I came to realize that the primary obstacle in estimating UAV dynamics lies not in the actual modeling of the dynamics but rather in obtaining and verifying an appropriate dataset. For accurate estimation of a UAV's dynamics, the dataset must capture all the relevant physical effects independently and adequately covers of the state input-space of the system. Otherwise, significant discrepancies in the estimated dynamics model will be observed when evaluated beyond the distribution of the training data. Furthermore, external effects such as wind conditions 
@@ -80,18 +80,24 @@ Throughout the course of my research, I came to realize that the primary obstacl
 Therefore, even for a relatively uncomplicated platform such as a multirotor, an organized methodology for gathering and validating data is paramount to the attainment of a comprehensively generalizable model that faithfully captures the underlying physical phenomena. 
 The challenge of selecting an appropriate dataset becomes even greater for fixed-wing and vertical take-off and landing (VTOL) UAVs, as they exhibit highly nonlinear behavior and instability near the stall. This necessitates the development of specialized flight maneuvers that explore the dynamics beyond their nominal operating point and potentially outside if the vehicles narrow stability range (e.g. post stall regime). 
 
-<!-- For fixed-wing and vertical take-off and landing (VTOL) UAVs pose this becomes even more challenging due to their exceedingly nonlinear behavior and instability near the stall necessitating the development of specialized flight maneuvers to explore the dynamics beyond their nominal operating point.
+### Parametric Model
+To adress the challenges named above a hand-crafted parametric model has several advantages. This model choice provides a high degree of control over its fidelity, making the collection of a compatible dataset significantly easier. Moreover, it allowes us to quantitatively estimate how much information on a certain parameter is present in the data set. For a model that is linear with respect to its parameters (but potentially nonlinear with repect to its state $$\bm x$$ or input $$u$$) this can easily be computed through a significance test and correlation matrix of the parameters w.r.t. the data. For a nonlinear parametric model a more suffisticated approach like the Fisher information can be used. 
+
+### Assessment of Data Quality via Fisher Information
+Through the computation of [Fisher information](https://arxiv.org/pdf/1705.01064.pdf) an estimate of how much information data provides for estimating a parameter $$\theta$$. This is achieved via a sensitivity analysis w.r.t $$\theta$$ of the logarithmic likelyhood to observe measurement X given parameter value.
+
+$$
+I(\theta) = -\mathbb{E}\left[\frac{\partial^2}{\partial \theta^2} \log f(X | \theta)\right] \tag{2} 
+$$
+
+where $$I(\theta)$$ is the Fisher information with respect to the parameter $$\theta$$, $$ f(X | \theta) $$ is the probability density function of observing the random variable $X$ given the parameter $$\theta$$, and $$\mathbb{E}$$ denotes the expected value operator.
+<!-- The Fisher information matrix, which is defined as the second partial derivatives of the log-likelihood function of observing the measurement given parameter $$\theta$$, provides information on the precision of estimated parameters and the correlation between parameters. -->
+
+<!-- It allowes tight control over the fidelity of the modelwhich drasticall yfascilitas the job of collecting a matching dataset. Additionally, through the computation of the [Fisher information](https://arxiv.org/pdf/1705.01064.pdf) enables quantification of the extent to which each modeled component is evident in the dataset. The Fisher information matrix is a matrix of second partial derivatives of the log-likelihood function with respect to the parameters. The diagonal elements of this matrix indicate the precision of the estimated parameters, while the off-diagonal elements indicate the extent to which the parameters are correlated.
 
 
-Throughout the course of my research it became evident to me, that for the estimation of UAV dynamics, the main challenge lies not actually in the modelling of the present dynamics, but in collecting and validating the right data set. Already for a relatively simple platform, like a multirotor, the underlying data set needs to be carefully choosen so the different physical effects can be observed separately from each other. 
 
- an organized methodology for gathering data is paramount to the attainment of a comprehensively generalizable model that faithfully captures the underlying physical phenomena. Especially for fixed-wing and vertical take-off and landing (VTOL) UAVs pose a significant challenge due to their exceedingly nonlinear and unstable behavior near the stall, necessitating the development of specialized flight maneuvers to explore the dynamics beyond their nominal operating point. -->
-
-### Advantages of a Parametric Model
-To adress the challenges named above a hand-crafted parametric model representing the physical phenomena  to measure the degree to which each modeled component manifests within the dataset. 
-
-However, this can be readily expanded to a model-free or deep learning methodology. To support the user the [Fisher information](https://en.wikipedia.org/wiki/Fisher_information), which is a way of measuring the amount if information the data contains about an unknown parameter $$ \theta $$ corresponding to the choosen model. The process is fully automated for the example of a parametric multi-rotor model, for which the collectied flight data that sufficiently exposes the linear and angular dynamics of the vehicle is relatively simpel. But due to the modular approach in the parametric model the pipeline can easaliy be adjusted to a custom airframe structure. 
-
+However, this can be readily expanded to a model-free or deep learning methodology. -->
 
 
 
