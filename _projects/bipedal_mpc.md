@@ -6,14 +6,14 @@ caption: Online gait generation using whole-body dynaics.
 #   While Hydejack is built for personal sites, it's versatility allows it to be used a product page as well.
 date: '05-03-2022'
 image: 
-  path: /assets/img/projects/bipedal_locomotion_mpc/amber.jpg
+  path: /assets/img/projects/bipedal_locomotion_mpc/amber-min.jpg
   srcset: 
-    1920w: /assets/img/projects/bipedal_locomotion_mpc/amber.jpg
+    1920w: /assets/img/projects/bipedal_locomotion_mpc/amber-min.jpg
 links:
   - title: Link
     url: https://hydejack.com/
 accent_color: '#383737'
-accent_image: /assets/img/projects/bipedal_locomotion_mpc/amber.jpg
+accent_image: /assets/img/projects/bipedal_locomotion_mpc/amber-min.jpg
 background: '#383737'
 theme_color: '#383737'
 sitemap: false
