@@ -99,6 +99,11 @@ where $$I(\theta)$$ is the Fisher information with respect to the parameter $$\t
 
 However, this can be readily expanded to a model-free or deep learning methodology. -->
 
+### Video Presentation at the PX4 Developer Summit 2021
+
+<div class="videoWrapper">
+<iframe src="https://www.youtube.com/watch?v=kAsfptZU4uk&t=710s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 
