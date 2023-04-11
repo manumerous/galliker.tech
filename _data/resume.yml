@@ -25,9 +25,9 @@ basics:
     #   username: "Richard Hendricks"
     #   url: ""
 work:
-  - company: "Halodi Robotics"
+  - company: "1X Technologies"
     position: "Senior Robotics Controls Engineer"
-    website: "https://halodi.com"
+    website: "https://www.1x.tech/"
     startDate: "2022-09-01"
     endDate: ""
     summary: 
