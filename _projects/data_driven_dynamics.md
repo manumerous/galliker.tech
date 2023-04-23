@@ -104,7 +104,7 @@ $$
 \bm s( \bm \theta) = -\mathbb{E}\left[\frac{\partial \log f(\bm X; \bm \theta)}{\partial \bm \theta}\right  ]
 $$
 
-Where $$f(\bm X; \bm \theta)$$ is the probability density function of observing the random variable $$\bm X $$ given the parameter $$\theta$$, and $$\mathbb{E}$$ denotes the expected value operator. 
+Where $$f(\bm X; \bm \theta)$$ is the probability density function of observing the random variable $$\mathbf{X} = [\mathbf{x}_0, ..\mathbf{x}_n]^T$$ given the parameter $$\theta$$, and $$\mathbb{E}$$ denotes the expected value operator. 
 
 Given that the log-likelihood is continuous it can be shown that the score vanishes at maximum likely choice of $$\bm \theta$$. The fisher information is defined as the variance of the score/informant, which corresponds to the curvature of the log-likelihood function.
 
@@ -129,7 +129,7 @@ $$
 \bm I( \bm \theta) = \frac{1}{2\sigma^2} \sum_{i=1}^{n} \mathbf{x}_i \mathbf{x}_i^T = \frac{1}{2\sigma^2} \mathbf{X}^T \mathbf{X}
 $$
 
-where $$\mathbf{X} = [\mathbf{x}_0, ..\mathbf{x}_n]^T$$. Importantly it can be seen, that the information contained about each parameter $$\theta$$ in $$\mathbf{x}_i$$ is proportional to $$\bm I_i = \mathbf{x}_i \mathbf{x}_i^T$$. Furthermore, in case $$\bm I_i$$ is not of full rank the sample contains no information on the parameters corresponding to the zero eigenvalues. Those properties build the basis for a theoretically thorough and generalizable automatic data selection. 
+Importantly it can be seen, that the information contained about each parameter $$\theta$$ in $$\mathbf{x}_i$$ is proportional to $$\bm I_i = \mathbf{x}_i \mathbf{x}_i^T$$. Furthermore, in case $$\bm I_i$$ is not of full rank the sample contains no information on the parameters corresponding to the zero eigenvalues. Those properties build the basis for a theoretically thorough and generalizable automatic data selection. 
 
 
 
