@@ -18,12 +18,12 @@ basics:
     countryCode: "NO"
     # region: "Norway"
   profiles:
-    # - network: "Twitter"
-    #   username: "RHendricksCEO"
-    #   url: ""
-    # - network: "LinkedIn"
-    #   username: "Richard Hendricks"
-    #   url: ""
+    - network: "Twitter"
+      username: "manumerous"
+      url: "https://twitter.com/manumerous"
+    - network: "LinkedIn"
+      username: "Manuel Yves Galliker"
+      url: "https://www.linkedin.com/in/manuel-galliker/"
 work:
   - company: "1X Technologies"
     position: "Senior Robotics Controls Engineer"
