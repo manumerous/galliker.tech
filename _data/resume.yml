@@ -32,7 +32,7 @@ work:
     endDate: ""
     summary: 
       "Enabling the real world application of humanoid robots through the development of motion planning, control and autonomy algorithms
-      with a focus on nonlinear Model Predictive Control, Whole-Body control and machine learning. (C++, Python, ROS, Nonlinear
+      with a focus on nonlinear Model Predictive Control, Whole-Body control and machine learning. (C++, Python, Java, ROS2, Nonlinear
       Systems and Control Theory, OCS2, Pinocchio)"
     # highlights:
     #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
