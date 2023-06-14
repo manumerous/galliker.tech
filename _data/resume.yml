@@ -31,7 +31,7 @@ work:
     startDate: "2022-09-01"
     endDate: ""
     summary: 
-      "Enabling the real world application of humanoid robots through the development of motion planning, control and autonomy algorithms
+      "I am working towards real world application of humanoid robots through the development of motion planning, control and autonomy algorithms
       with a focus on nonlinear Model Predictive Control, Whole-Body control and machine learning. (C++, Python, Java, ROS2, Nonlinear
       Systems and Control Theory, OCS2, Pinocchio)"
     # highlights:
