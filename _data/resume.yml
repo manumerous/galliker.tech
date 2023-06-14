@@ -90,6 +90,11 @@ volunteer:
     summary: "Organizing various outdoor activities, summer and ski camps for children
         and teenagers in the local scouting group in Konolfingen."
 education:
+  - institution: "Caltech"
+    area: "Robotics and Control Theory"
+    studyType: "Visiting Student Researcher at AMBER Lab"
+    startDate: "2021-09-01"
+    endDate: "2022-02-01"
   - institution: "ETH Zurich"
     area: "Mechanical Engineering - Robotics, Systems and Controls"
     studyType: "MSc"
