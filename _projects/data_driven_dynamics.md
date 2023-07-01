@@ -20,8 +20,21 @@ theme_color: '#193747'
 sitemap: false
 ---
 
+
+
 A dynamics model is a valuable tool for a variety of applications, including simulations and control. However, traditional methods for obtaining such models for an unmanned aerial vehicle (UAV), such as wind tunnel testing or the installation of additional sensors, can be time-consuming, inaccesible and costly. 
 In this project, I aimed to address this challenge by proposing a data-driven dynamics modeling pipeline. The primary objective was to establish a [PX4](https://px4.io/) compatible framework, suitable for different types of UAVs including multirotors, fixed-wings and VTOLs and model structures. The dynamics model of choice is obtained by minimizing the prediciton error of the model with respect to the flight data collected by the by default on the vehicle installed sensors from the [ULog File Format](https://docs.px4.io/main/en/dev_log/ulog_file_format.html). Specifically, for the example of multirotors, the pipeline automates the estimation of a parametric dynamics model and integrates it into the [PX4 Gazebo flight simulator](https://github.com/PX4/PX4-SITL_gazebo-classic).The data-driven-dynamics pipeline is published as an [open source project on Github](https://github.com/ethz-asl/data-driven-dynamics) and presented at the [Linux Foundation PX4 Developer Summit 2021](https://events.linuxfoundation.org/archive/2021/px4-developer-summit/).
+
+<a href="https://github.com/ethz-asl/data-driven-dynamics" class="btn btn-sm btn-primary mt1" target="_blank">
+        Code
+</a>
+<a href="https://www.research-collection.ethz.ch/handle/20.500.11850/507495" class="btn btn-sm btn-primary mt1" target="_blank">
+        <small class="icon-file-pdf"></small>
+        Student Paper
+</a>
+<a href="https://www.youtube.com/watch?v=kAsfptZU4uk" class="btn btn-sm btn-primary mt1" target="_blank">
+        Presentation - PX4 Dev Summit 21
+</a>
 
 ## Overview of the Pipeline
 The data-driven dynamics pipeline is implemented in python and consists of the following main modules: 
@@ -134,6 +147,9 @@ Importantly it can be seen, that the information contained about each parameter 
 
 
 ## Resources
+
+
+
 ### Presentation at the PX4 Developer Summit 2021
 
 <div class="videoWrapper">
