@@ -19,7 +19,33 @@ theme_color: '#383737'
 sitemap: false
 ---
 
-I am still working on documenting this project.
+
+
+In this project I explored and developed 
+The ability to generate dynamic bipedal walking in real-time for bipedal robots with input constraints and underactua-
+tion has the potential to enable locomotion in dynamic, complex and unstructured environments. Yet, the high-dimensional nature of bipedal robots has limited the use of full-order rigid body dynamics to gaits which are synthesized offline and then
+tracked online. As part of my master thesis I explored, developed and sucessfully tested an online nonlinear model predictive control approach that leverages the full-order dynamics to realize diverse walking behaviors. Additionally, building up on prior work of [Noel Csomay-Shanklin](https://noelc-s.github.io/website/) we coupled this approach with offline synthesized gaits to enable a shorter prediction horizon and rapid online re-planning. 
+
+The following discussion is meant to be a more accesible exposition of the methodology employed in the paper: [Planar Bipedal Locomotion with Nonlinear Model Predictive Control: Online Gait Generation using Whole-Body Dynamics](https://arxiv.org/pdf/2203.07429.pdf).
+
+## Links
+
+<a href="https://arxiv.org/pdf/2203.07429.pdf" class="btn btn-sm btn-primary mt1" target="_blank">
+        <small class="icon-file-pdf"></small>
+        Paper
+</a>
+<a href="https://www.youtube.com/watch?v=3g8ZNsCWdOA" class="btn btn-sm btn-primary mt1" target="_blank">
+        Experimental Results
+</a>
+<a href="https://www.youtube.com/watch?v=zMjEMkBBRbg&t=19s" class="btn btn-sm btn-primary mt1" target="_blank">
+        Presentation - Humanoids 2022
+</a>
+<a href="https://mediaspace.wisc.edu/media/DW22_Csomay-Shanklin%2C+Noel+-+June+15th+2022%2C+7A39A39+pm/1_das1yjvq" class="btn btn-sm btn-primary mt1" target="_blank">
+        Presentation - Dynamics Walking 2022 
+</a>
+
+## Introduction
+I am still working on documenting this project. 
 
 ### Project Video
 
