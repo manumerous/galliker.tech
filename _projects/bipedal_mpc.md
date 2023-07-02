@@ -19,8 +19,6 @@ theme_color: '#383737'
 sitemap: false
 ---
 
-
-
 In this project I explored and developed 
 The ability to generate dynamic bipedal walking in real-time for bipedal robots with input constraints and underactua-
 tion has the potential to enable locomotion in dynamic, complex and unstructured environments. Yet, the high-dimensional nature of bipedal robots has limited the use of full-order rigid body dynamics to gaits which are synthesized offline and then
@@ -32,18 +30,26 @@ The following discussion is meant to be a more accesible exposition of the metho
         <small class="icon-file-pdf"></small>
         Paper
 </a>
+<a href="/assets/documents/projects/bipedal_locomotion_mpc/Humanoids_TO_MPC_Workshop_Poster.pdf" class="btn btn-sm btn-primary mt1" target="_blank">
+        <small class="icon-file-pdf"></small>
+        Poster
+</a>
+<a href="/assets/documents/projects/bipedal_locomotion_mpc/Paper_Presentation_Humanoids_short.pdf" class="btn btn-sm btn-primary mt1" target="_blank">
+        <small class="icon-file-pdf"></small>
+        Presentation Slides
+</a>
 <a href="https://www.youtube.com/watch?v=3g8ZNsCWdOA" class="btn btn-sm btn-primary mt1" target="_blank">
         Experimental Results
 </a>
 <a href="https://www.youtube.com/watch?v=zMjEMkBBRbg&t=19s" class="btn btn-sm btn-primary mt1" target="_blank">
         Presentation - Humanoids 2022
 </a>
+
 <a href="https://mediaspace.wisc.edu/media/DW22_Csomay-Shanklin%2C+Noel+-+June+15th+2022%2C+7A39A39+pm/1_das1yjvq" class="btn btn-sm btn-primary mt1" target="_blank">
         Presentation - Dynamics Walking 2022 
 </a>
 
-## Introduction
-I am still working on documenting this project. 
+
 
 ### Project Video
 
