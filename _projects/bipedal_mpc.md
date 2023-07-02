@@ -73,6 +73,10 @@ This way is is possible to add for example a torque limit to the optimization. B
 The proposed MPC is then combined with a low level controller that recovers the planned torques and accounts for model missmath through an additional feedback term. 
 
 
+<div style="width: 100%; margin-top: 40px;">
+  <p align="center"><img src="/assets/img/projects/bipedal_locomotion_mpc/MPCPipeline_v2_web.jpg"></p>
+</div>
+
 
 
 <!-- ## Combination with offline generated Hybrid Zero Dynamics Gaits
