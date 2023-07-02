@@ -49,7 +49,10 @@ The following discussion is meant to be a more accesible exposition of the metho
         Presentation - Dynamics Walking 2022 
 </a>
 
+## Legged Robot Dynamics
 
+
+![Cute Puppy](/assets/img/projects/bipedal_locomotion_mpc/hybrid_dynamics_web.png)
 
 ### Project Video
 
