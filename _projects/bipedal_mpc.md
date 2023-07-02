@@ -79,9 +79,9 @@ The proposed MPC is then combined with a low level controller that recovers the 
 
 
 
-<!-- ## Combination with offline generated Hybrid Zero Dynamics Gaits
+## Combination with offline generated Hybrid Zero Dynamics Gaits
 
-I am still working o -->
+I am still working on documenting this part. 
 
 
 ## Experimental Results
