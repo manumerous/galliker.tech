@@ -13,10 +13,10 @@ image:
 links:
   - title: Link
     url: https://github.com/ethz-asl/data-driven-dynamics
-accent_color: '#4fb1ba'
+accent_color: '#586B76'
 accent_image: /assets/img/projects/data_driven_dynamics/tilt_wing_mountains_landscape.JPG
-background: '#193747'
-theme_color: '#193747'
+background: '#586B76'
+theme_color: '#586B76'
 sitemap: false
 ---
 
