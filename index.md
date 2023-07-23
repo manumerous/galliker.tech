@@ -10,11 +10,11 @@ I am a passionate robotics engineer and maker and would love to take you on a jo
 
 ### „If knowledge can create problems, it is not through ignorance that we can solve them.“ - Isaac Asimov
 
-Through actively shaping and increasing the accesibility of technology I aim to provide society with powerful tools to contribute to the betterment of mankind. In particular, I find the prospect of intelligent robotic systems interacting with dynamic, uncontrolled and unstructured real-world environments captivating. 
+Through actively shaping technology I aim to provide society with powerful tools to contribute to the betterment of mankind.  At the moment, I’m particularly excited about enabling cyber-physical systems to interact with dynamic, uncontrolled and unstructured environments in an intelligent way. At the moment, I’m particularly excited about 
 
 ---
 
-In that sense I hope that this website provides you with inspiration and me with new connections with like-minded people! 
+I hope that this website provides you with inspiration and me with new connections with like-minded people! Please feel free to reach me over email if these are similarly of interest to you! 
 <!-- 
 I am interested in nonlinear control, control theory, machine learning, numerical optimization, mechatronics, embedded systems and electronics.  -->
 ## Start to Explore
