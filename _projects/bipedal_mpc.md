@@ -11,7 +11,8 @@ image:
     1920w: /assets/img/projects/bipedal_locomotion_mpc/amber-min.jpg
 links:
   - title: Link
-    url: https://hydejack.com/
+    url: https://arxiv.org/abs/2203.07429
+
 accent_color: '#383737'
 accent_image: /assets/img/projects/bipedal_locomotion_mpc/amber-min.jpg
 background: '#383737'
