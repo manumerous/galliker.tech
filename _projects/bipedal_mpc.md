@@ -21,8 +21,7 @@ sitemap: false
 ---
 
 In this project I explored and developed 
-The ability to generate dynamic bipedal walking in real-time for bipedal robots with input constraints and underactua-
-tion has the potential to enable locomotion in dynamic, complex and unstructured environments. Yet, the high-dimensional nature of bipedal robots has limited the use of full-order rigid body dynamics to gaits which are synthesized offline and then
+The ability to generate dynamic bipedal walking in real-time for bipedal robots with input constraints and underactuation has the potential to enable locomotion in dynamic, complex and unstructured environments. Yet, the high-dimensional nature of bipedal robots has limited the use of full-order rigid body dynamics to gaits which are synthesized offline and then
 tracked online. As part of my master thesis I explored, developed and sucessfully tested an online nonlinear model predictive control approach that leverages the full-order dynamics to realize diverse walking behaviors. Additionally, building up on prior work of [Noel Csomay-Shanklin](https://noelc-s.github.io/website/) we coupled this approach with offline synthesized gaits to enable a shorter prediction horizon and rapid online re-planning. 
 
 The following discussion is meant to give a quick overview of the methodology employed in the paper: *Planar Bipedal Locomotion with Nonlinear Model Predictive Control: Online Gait Generation using Whole-Body Dynamics*.
