@@ -40,11 +40,19 @@ The following ODE solvers are currently included in the library:
 
 ### Explicit Euler
 
-The explicit Euler method, also known as Forward Euler, is the simplest of the ODE solvers. Since it uses only a single first order information of the function at the beginning og the step the resulting local error is of magnitute $O(n^2)$. It is generally cpu time efficient, but not very accurate and prone to overshooting and subsequentailly becoming unstable for too large step sizes. 
+The explicit Euler method, also known as Forward Euler, is the simplest of the ODE solvers. Since it uses only a evaluation of the system dynamics, which only gives the algorithm first order information of the system dynamics for each time step, the resulting local error is of magnitute $O(n^2)$. It is generally cpu time efficient, but not very accurate and prone to overshooting and subsequentailly becoming unstable for too large step sizes. 
 
-The explicit Euler method is given by the following equation:
+The explicit Euler method is defined as follows:
 
-$$ x_{n+1} = x_n + \Delta t \ f(x_n, t) $$
+$$ x_{n+1} = x_n + \Delta t \ f(x_n, t_n) $$
+
+### Implicit Euler
+
+Instead of evaluating the first order information at the beginning of the step the implicit euler or euler backwards method evaluates the system dynamics at the end of each time step. The algorithm therefore tends to undershoot instead of overshoot like the euler forward method. Therefore, euler backwards is generally less prone to become numerically unstalbe than the euler forward approach at the cost of additional complexity. also this first order method has a local error of magnitute $O(n^2)$
+
+The implicit Euler Method is defined as follows: 
+
+$$ x_{n+1} = x_n + \Delta t \ f(x_{n+1}, t_{n+1}) $$
 
 
 <a href="https://github.com/manumerous/lynx-ode" class="btn btn-sm btn-primary mt1" target="_blank">
