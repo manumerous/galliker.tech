@@ -28,7 +28,17 @@ The following methods are currently included:
 - 2nd Order Runge-Kutta
 - 4th Order Runge-Kutta
 
-## Explicit Euler
+### ODE solvers
+
+An ODE (Ordinary Differential Equation) solver is a computational algorithm used to solve ordinary differential equations. The most common application is the simulation of dynamical systems, which can be used to model a wide range of time varying phenomena in physics, engineering, biology and economics among others. The dynamical system is typically described by a set of states that describe the internal conditions of the system. How the system evolves over time, as characterized by the rate of change of the state, is described as a function of time and the current state itself, resulting in an ordinary differential equation.
+
+$$ \dot{x} = f(x, t) $$
+
+Given an initial state $x_0$ at time $t_0$, the ODE solver is then used to forward integrate the system over time, resulting in a time series of states $x(t)$.
+
+The following ODE solvers are currently included in the library:
+
+### Explicit Euler
 
 The explicit Euler method, also known as Forward Euler, is the simplest of the ODE solvers. Since it uses only a single first order information of the function at the beginning og the step the resulting local error is of magnitute $O(n^2)$. It is generally cpu time efficient, but not very accurate and prone to overshooting and subsequentailly becoming unstable for too large step sizes. 
 
