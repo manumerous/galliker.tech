@@ -28,7 +28,7 @@ The following methods are currently included:
 - 2nd Order Runge-Kutta
 - 4th Order Runge-Kutta
 
-### ODE solvers
+## ODE solvers
 
 An ODE (Ordinary Differential Equation) solver is a computational algorithm used to solve ordinary differential equations. The most common application is the simulation of dynamical systems, which can be used to model a wide range of time varying phenomena in physics, engineering, biology and economics among others. The dynamical system is typically described by a set of states that describe the internal conditions of the system. How the system evolves over time, as characterized by the rate of change of the state, is described as a function of time and the current state itself, resulting in an ordinary differential equation.
 
@@ -46,7 +46,7 @@ The explicit Euler method is defined as follows:
 
 $$ x_{n+1} = x_n + \Delta t \ f(x_n, t_n) $$
 
-### Implicit Euler
+#### Implicit Euler
 
 Instead of evaluating the first order information at the beginning of the step the implicit euler or euler backwards method evaluates the system dynamics at the end of each time step. The algorithm therefore tends to undershoot instead of overshoot like the euler forward method. Therefore, euler backwards is generally less prone to become numerically unstalbe than the euler forward approach at the cost of additional complexity. also this first order method has a local error of magnitute $O(n^2)$
 
