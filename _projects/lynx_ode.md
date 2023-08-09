@@ -30,7 +30,7 @@ The following methods are currently included:
 
 ## ODE solvers
 
-An ODE (Ordinary Differential Equation) solver is a computational algorithm used to solve ordinary differential equations. The most common application is the simulation of dynamical systems, which can be used to model a wide range of time varying phenomena in physics, engineering, biology and economics among others. The dynamical system is typically described by a set of states that describe the internal conditions of the system. How the system evolves over time, as characterized by the rate of change of the state, is described as a function of time and the current state itself, resulting in an ordinary differential equation.
+An ODE (Ordinary Differential Equation) solver is a computational algorithm used to simulate dynamical systems to model a wide range of time varying phenomena in physics, engineering, biology and economics among others. The dynamical system is typically described by a set of states containing information about the internal conditions of the system. How the system evolves over time, as characterized by the rate of change of it's states, is described as a function of time and the current state itself, resulting in an ordinary differential equation.
 
 $$ \dot{x} = f(x, t) $$
 
