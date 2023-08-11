@@ -19,7 +19,7 @@ theme_color: '#136EAE'
 sitemap: false
 ---
 
-A versatile and light weight like a lynx! This headers only C++ library containing Ordinary Differentail Equations (ODE) solvers that can be used to simulate dynamical systems.
+A versatile and light weight like a lynx! This headers only C++ library containing Ordinary Differential Equations (ODE) solvers that can be used to simulate dynamical systems.
 
 The following methods are currently included:
 
@@ -34,13 +34,13 @@ An ODE (Ordinary Differential Equation) solver is a computational algorithm used
 
 $$ \dot{x} = f(x, t) $$
 
-Given an initial state $x_0$ at time $t_0$, the ODE solver is then used to forward integrate the system over time, resulting in a time series of states $x(t)$.
+Given an initial state $$x_0$$ at time $$t_0$$, the ODE solver is then used to forward integrate the system over time, resulting in a time series of states $$x(t)$$. This ODE describing the dynamical system is also referred to as the system flow map. 
 
 The following ODE solvers are currently included in the library:
 
 ### Explicit Euler
 
-The explicit Euler method, also known as Forward Euler, only uses a single evaluation of the system dynamics at the current state and time. This gives the algorithm first order information of the system dynamics for each time step resulting in a local error is of magnitute $O(n^2)$. It is generally cpu time efficient, but not very accurate and prone to overshooting and subsequentailly becoming unstable for too large step sizes. 
+The explicit Euler method, also known as Forward Euler, only uses a single evaluation of the system flow map at the current state and time. This gives the algorithm first order information of the system dynamics for each time step resulting in a local error is of magnitude $$ O( \Delta t^2 ) $$. It is generally cpu time efficient, but not very accurate and prone to overshooting and sub-sequentially becoming unstable for too large step sizes. 
 
 The explicit Euler method is defined as follows:
 
@@ -48,16 +48,23 @@ $$ x_{n+1} = x_n + \Delta t \ f(x_n, t_n) $$
 
 ### Implicit Euler
 
-Instead of evaluating the first order information at the beginning of the step the implicit euler or euler backwards method evaluates the system dynamics at the end of each time step to reduce the risk of numeric instabilities at the cost of additional complexity. Also this first order method has a local error of magnitute $O(n^2)$
+Instead of evaluating the system flow map at the beginning of the step the implicit euler or euler backwards method evaluates at the end of each time step. This reduces the risk of numeric instabilities at the cost of additional complexity. Also this first order method has a local error of magnitude $$O(\Delta t^2)$$
 
 The implicit Euler Method is defined as follows: 
 
 $$ x_{n+1} = x_n + \Delta t \ f(x_{n+1}, t_{n+1}) $$
+
+### Runge-Kutta Method
+
+In contrast to the discussed first order methods (which can be seen as first order Runge-Kutta methods) the higher order Runge-Kutta methods evaluate the system flow map multiple times within one time step. This way it is possible to include higher order information of the system flow map into a single prediction step. The local error of a kth order Runge-Kutta method is of order $$O(\Delta t^{k+1})$$. 
+
+#### 2nd Order Runge-Kutta
+
+#### 4th Order Runge Kutta
 
 
 <a href="https://github.com/manumerous/lynx-ode" class="btn btn-sm btn-primary mt1" target="_blank">
         Code
 </a>
 
-## Implicit Euler
 
