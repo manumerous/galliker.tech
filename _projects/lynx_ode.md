@@ -19,16 +19,9 @@ theme_color: '#136EAE'
 sitemap: false
 ---
 
-A versatile and light weight like a lynx! This headers only C++ library containing Ordinary Differential Equations (ODE) solvers that can be used to simulate dynamical systems.
+This headers only C++ library contains a range of Ordinary Differential Equations (ODE) solvers that can be used to simulate dynamical systems.
 
-The following methods are currently included:
-
-- Explicit Euler (also known as Forward Euler)
-- Implicit Euler (also known as Euler Backward)
-- 2nd Order Runge-Kutta
-- 4th Order Runge-Kutta
-
-## ODE solvers
+## ODE Solvers
 
 An ODE (Ordinary Differential Equation) solver is a computational algorithm used to simulate dynamical systems to model a wide range of time varying phenomena in physics, engineering, biology and economics among others. The dynamical system is typically described by a set of states containing information about the internal conditions of the system. How the system evolves over time, as characterized by the rate of change of it's states, is described as a function of time and the current state itself, resulting in an ordinary differential equation.
 
@@ -36,7 +29,14 @@ $$ \dot{\bm x} = \bm f(\bm x, t) $$
 
 Given an initial state $$\bm x_0$$ at time $$t_0$$, the ODE solver is then used to forward integrate the system over time, resulting in a time series of states $$\bm x(t)$$. This ODE describing the dynamical system is also referred to as the system flow map. 
 
-The following ODE solvers are currently included in the library:
+## Included ODE Solvers
+
+The following methods are currently included:
+
+- Explicit Euler (also known as Forward Euler)
+- Implicit Euler (also known as Euler Backward)
+- 2nd Order Runge-Kutta
+- 4th Order Runge-Kutta
 
 ### Explicit Euler
 
