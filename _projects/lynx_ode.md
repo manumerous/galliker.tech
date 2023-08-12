@@ -76,10 +76,10 @@ The 4th Order Runge-Kutta solver evaluates the system flow map at 4 distinctive 
 
 $$
 \begin{align*}
-\bm{k}_1 & = \Delta t f(t_n, \bm{x}_n) \\
-\bm{k}_2 & = \Delta t f\left(t_n + \frac{\Delta t}{2}, \bm{x}_n + \frac{\bm{k}_1}{2}\right) \\
-\bm{k}_3 & = \Delta t f\left(t_n + \frac{\Delta t}{2}, \bm{x}_n + \frac{\bm{k}_2}{2}\right) \\
-\bm{k}_4 & = \Delta t f(t_n + \Delta t, \bm{x}_n + \bm{k}_3) \\
+\bm{k}_1 & = \Delta t \bm f(t_n, \bm{x}_n) \\
+\bm{k}_2 & = \Delta t \bm f\left(t_n + \frac{\Delta t}{2}, \bm{x}_n + \frac{\bm{k}_1}{2}\right) \\
+\bm{k}_3 & = \Delta t \bm f\left(t_n + \frac{\Delta t}{2}, \bm{x}_n + \frac{\bm{k}_2}{2}\right) \\
+\bm{k}_4 & = \Delta t \bm f(t_n + \Delta t, \bm{x}_n + \bm{k}_3) \\
 \bm{x}_{n+1} & = \bm{x}_n + \frac{1}{6}(\bm{k}_1 + 2\bm{k}_2 + 2\bm{k}_3 + \bm{k}_4)
 \end{align*}
 $$
