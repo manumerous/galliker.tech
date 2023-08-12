@@ -60,6 +60,7 @@ In contrast to the discussed first order methods (which can be seen as first ord
 
 #### 2nd Order Runge-Kutta
 the 2nd order Runge-Kutta solver first evaluated the direction of a single euler forward step and then evaluates the system flow map at a half step in that direction. 
+
 $$
 \begin{align*}
 \bm k_1 & = \Delta t \  \bm f(\bm x_n, t_n) \\
@@ -72,6 +73,7 @@ $$
 
 #### 4th Order Runge Kutta
 The 4th Order Runge-Kutta solver evaluates the system flow map at 4 distinctive points, with consecutive evaluations building up on the previous one, and then takes a weighted average over the 4 direction to account for the curvature of the real system dynamics. 
+
 $$
 \begin{align*}
 \bm{k}_1 & = \Delta t f(t_n, \bm{x}_n) \\
