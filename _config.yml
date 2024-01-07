@@ -91,8 +91,8 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/Robot_BG_4.png
-accent_color:          rgb(108,60,126)
+accent_image:          /assets/img/cost_function_hills_bg.png
+accent_color:          rgb(211, 119, 52)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
