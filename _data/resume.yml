@@ -161,6 +161,8 @@ programming-languages:
     fluency: "4"
   - language: "Python"
     fluency: "4"
+  - language: "Java"
+    fluency: "4"
   - language: "Matlab"
     fluency: "4"
   - language: "C#"
