@@ -25,15 +25,30 @@ basics:
       username: "Manuel Yves Galliker"
       url: "https://www.linkedin.com/in/manuel-galliker/"
 work:
+ - company: "1X Technologies"
+    position: "Team Lead Controls and Embedded"
+    website: "https://www.1x.tech/"
+    startDate: "2023-09-01"
+    endDate: ""
+    summary: 
+      "Leading and coordinating 1X R&D efforts for controls and embedded for the new bipedal humanoid robot NEO.
+      Nonlinear MPC, reinforcement learning, state estimation through Extended Kalman Filter (EKKF), system integration,
+      identification and testing (C++, Python, Java, ROS2, Nonlinear Systems and Control Theory, OCS2, Pinocchio, Isaac
+      Sim, Pytorch)"
+    # highlights:
+    #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
+    #   - "Successfully won Techcrunch Disrupt"
+    #   - "Optimized an algorithm that holds the current world record for Weisman Scores"
   - company: "1X Technologies"
     position: "Senior Robotics Controls Engineer"
     website: "https://www.1x.tech/"
     startDate: "2022-09-01"
-    endDate: ""
+    endDate: "2023-08-31"
     summary: 
-      "I am working towards real world application of humanoid robots through the development of motion planning, control and autonomy algorithms
-      with a focus on nonlinear Model Predictive Control, Whole-Body control and machine learning. (C++, Python, Java, ROS2, Nonlinear
-      Systems and Control Theory, OCS2, Pinocchio)"
+      "Enabling the real world application of humanoid robots through the development and integration of motion planning,
+      control and autonomy algorithms with a focus on nonlinear Model Predictive Control and Whole-Body control. Testing,
+      Development and identification of field oriented control (FOC) for torque controlled electrical motor. (C++, Python,
+      Java, ROS2, Nonlinear Systems and Control Theory, OCS2, Pinocchio)"
     # highlights:
     #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
     #   - "Successfully won Techcrunch Disrupt"
