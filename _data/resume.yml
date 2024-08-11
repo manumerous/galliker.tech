@@ -3,7 +3,7 @@
 # See also: <https://jsonresume.org/>.
 basics:
   name: "Manuel Yves Galliker"
-  label: "Robotics Engineer | Researcher | DIY Enthusiast and Maker | Open Source Developer"
+  label: "Robotics Engineer | Machine Learning & Controls Researcher | DIY Enthusiast and Maker | Open Source Developer"
   # picture: "https://via.placeholder.com/240x240"
   # email: "manuel@galliker.tech"
   # phone: "(912) 555-4321"
@@ -14,8 +14,8 @@ basics:
   location:
     # address: "2712 Broadway St"
     # postalCode: "CA 94115"
-    city: "Oslo"
-    countryCode: "NO"
+    city: "Sunnyvale, CA"
+    countryCode: "USA"
     # region: "Norway"
   profiles:
     - network: "Twitter"
@@ -25,16 +25,26 @@ basics:
       username: "Manuel Yves Galliker"
       url: "https://www.linkedin.com/in/manuel-galliker/"
 work:
+- company: "1X Technologies"
+    position: "Research Engineer Robotic Learning"
+    website: "https://www.1x.tech/"
+    startDate: "2024-06-21"
+    endDate: ""
+    summary: 
+      "Leading and coordinating the successful bring up of our humanoid robot Neo from the first prototype to robust dynamic walking using 
+      NMPC and teleoperated hand control. Developed a reinforcement learning pipeline in NVIDIA Isaac Sim and set up initial C++ controls 
+      software stack including NMPC, RL Inference Controller, Joint Control API, MuJoCo Sim and CI pipeline. 
+      (C++, Python, Java, OCS2, Pinocchio, Pytorch, ONNX)"
  - company: "1X Technologies"
     position: "Team Lead Controls and Embedded"
     website: "https://www.1x.tech/"
     startDate: "2023-09-01"
-    endDate: ""
+    endDate: "2024-06-20"
     summary: 
-      "Leading and coordinating 1X R&D efforts for controls and embedded for the new bipedal humanoid robot NEO.
-      Nonlinear MPC, reinforcement learning, state estimation through Extended Kalman Filter (EKKF), system integration,
-      identification and testing (C++, Python, Java, ROS2, Nonlinear Systems and Control Theory, OCS2, Pinocchio, Isaac
-      Sim, Pytorch)"
+      "Leading and coordinating the successful bring up of our humanoid robot Neo from the first prototype to robust dynamic walking using 
+      NMPC and teleoperated hand control. Developed a reinforcement learning pipeline in NVIDIA Isaac Sim and set up initial C++ controls 
+      software stack including NMPC, RL Inference Controller, Joint Control API, MuJoCo Sim and CI pipeline. 
+      (C++, Python, Java, OCS2, Pinocchio, Pytorch, ONNX)"
     # highlights:
     #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
     #   - "Successfully won Techcrunch Disrupt"
@@ -45,10 +55,9 @@ work:
     startDate: "2022-09-01"
     endDate: "2023-08-31"
     summary: 
-      "Enabling the real world application of humanoid robots through the development and integration of motion planning,
-      control and autonomy algorithms with a focus on nonlinear Model Predictive Control and Whole-Body control. Testing,
-      Development and identification of field oriented control (FOC) for torque controlled electrical motor. (C++, Python,
-      Java, ROS2, Nonlinear Systems and Control Theory, OCS2, Pinocchio)"
+      "Developed a real-time motion planning framework for bipedal loco-manipulation using Whole-Body NMPC. Software development, testing 
+      and system integration of our custom made torque controlled REVO2 electrical motors using embedded Field Oriented Control (FOC). 
+      Growing the team by successfully hiring two controls and one firmware engineer. (C++, Python, Java, OCS2, Pinocchio, ROS2, EtherCAT)"
     # highlights:
     #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
     #   - "Successfully won Techcrunch Disrupt"
