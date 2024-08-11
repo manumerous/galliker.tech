@@ -25,7 +25,7 @@ basics:
       username: "Manuel Yves Galliker"
       url: "https://www.linkedin.com/in/manuel-galliker/"
 work:
-- company: "1X Technologies"
+  - company: "1X Technologies"
     position: "Research Engineer Robotic Learning"
     website: "https://www.1x.tech/"
     startDate: "2024-06-21"
@@ -35,7 +35,7 @@ work:
       NMPC and teleoperated hand control. Developed a reinforcement learning pipeline in NVIDIA Isaac Sim and set up initial C++ controls 
       software stack including NMPC, RL Inference Controller, Joint Control API, MuJoCo Sim and CI pipeline. 
       (C++, Python, Java, OCS2, Pinocchio, Pytorch, ONNX)"
- - company: "1X Technologies"
+  - company: "1X Technologies"
     position: "Team Lead Controls and Embedded"
     website: "https://www.1x.tech/"
     startDate: "2023-09-01"
