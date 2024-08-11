@@ -3,3 +3,4 @@
 
 Visit my page at [galliker.tech](https://galliker.tech).
 
+![image](https://github.com/user-attachments/assets/823818d4-3e6a-4bda-bcfe-66d4ece98338)
