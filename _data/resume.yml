@@ -11,140 +11,141 @@ basics:
   summary: >
     Passionate and results-driven with repeated success in translating theory into practice, 
     considerable leadership abilities and the desire to push robotics towards real-world applications.
+
   location:
     # address: "2712 Broadway St"
     # postalCode: "CA 94115"
-    city: "Sunnyvale, CA"
+    city: "San Francisco, CA"
     countryCode: "USA"
     # region: "Norway"
-  profiles:
-    - network: "Twitter"
-      username: "manumerous"
-      url: "https://twitter.com/manumerous"
-    - network: "LinkedIn"
-      username: "Manuel Yves Galliker"
-      url: "https://www.linkedin.com/in/manuel-galliker/"
-work:
-  - company: "1X Technologies"
-    position: "Research Engineer Robotic Learning"
-    website: "https://www.1x.tech/"
-    startDate: "2024-06-21"
-    endDate: ""
-    summary: 
-      "Leading and coordinating the successful bring up of our humanoid robot Neo from the first prototype to robust dynamic walking using 
-      NMPC and teleoperated hand control. Developed a reinforcement learning pipeline in NVIDIA Isaac Sim and set up initial C++ controls 
-      software stack including NMPC, RL Inference Controller, Joint Control API, MuJoCo Sim and CI pipeline. 
-      (C++, Python, Java, OCS2, Pinocchio, Pytorch, ONNX)"
-  - company: "1X Technologies"
-    position: "Team Lead Controls and Embedded"
-    website: "https://www.1x.tech/"
-    startDate: "2023-09-01"
-    endDate: "2024-06-20"
-    summary: 
-      "Leading and coordinating the successful bring up of our humanoid robot Neo from the first prototype to robust dynamic walking using 
-      NMPC and teleoperated hand control. Developed a reinforcement learning pipeline in NVIDIA Isaac Sim and set up initial C++ controls 
-      software stack including NMPC, RL Inference Controller, Joint Control API, MuJoCo Sim and CI pipeline. 
-      (C++, Python, Java, OCS2, Pinocchio, Pytorch, ONNX)"
-    # highlights:
-    #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-    #   - "Successfully won Techcrunch Disrupt"
-    #   - "Optimized an algorithm that holds the current world record for Weisman Scores"
-  - company: "1X Technologies"
-    position: "Senior Robotics Controls Engineer"
-    website: "https://www.1x.tech/"
-    startDate: "2022-09-01"
-    endDate: "2023-08-31"
-    summary: 
-      "Developed a real-time motion planning framework for bipedal loco-manipulation using Whole-Body NMPC. Software development, testing 
-      and system integration of our custom made torque controlled REVO2 electrical motors using embedded Field Oriented Control (FOC). 
-      Growing the team by successfully hiring two controls and one firmware engineer. (C++, Python, Java, OCS2, Pinocchio, ROS2, EtherCAT)"
-    # highlights:
-    #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-    #   - "Successfully won Techcrunch Disrupt"
-    #   - "Optimized an algorithm that holds the current world record for Weisman Scores"
-  - company: "Wingtra"
-    position: "Work Student Software & Industrialization Engineer"
-    website: "https://Wingtra.com"
-    startDate: "2019-09-01"
-    endDate: "2020-02-01"
-    summary: 
-      "Enhanced Quality control and reliability in the production of an VTOL drone for high precision aerial mapping through
-      expansion of software automated data collection, analysis and process optimization with a focus on actuators. (KPI
-      assessment, Python, Qt, Google Sheets API)"
-    # highlights:
-    #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-    #   - "Successfully won Techcrunch Disrupt"
-    #   - "Optimized an algorithm that holds the current world record for Weisman Scores"
-  - company: "Wingtra"
-    position: "Development Engineer"
-    website: "https://Wingtra.com"
-    startDate: "2019-04-01"
-    endDate: "2019-08-01"
-    summary: "Improved reliability KPIs of drone through leading various software & hardware projects on automated temperature calibration of IMU, barometer
-      and airspeed sensor and automated actuator test bench. (Project Management, Altium, Python, C++, Px4, RPi)"
-    # highlights:
-    #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-    #   - "Successfully won Techcrunch Disrupt"
-    #   - "Optimized an algorithm that holds the current world record for Weisman Scores"
-  - company: "Wingtra"
-    position: "Hardware Development Internship "
-    website: "https://Wingtra.com"
-    startDate: "2018-08-01"
-    endDate: "2019-03-01"
-    summary: "Improved performance and reliability through extensive sensor evaluation, actuator redesign and debugging of the drone
-      and roll-out of new manufacturing processes.(Rapid Prototyping, Matlab, Electric Circuit Analysis & Design, Solidworks)"
-    # highlights:
-    #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-    #   - "Successfully won Techcrunch Disrupt"
-    #   - "Optimized an algorithm that holds the current world record for Weisman Scores"
-volunteer:
-  - organization: "AMIV Bastli"
-    position: "President/Vice President and Treasurer of AMIV Bastli"
-    website: "https://bastli.ethz.ch"
-    startDate: "2016-09-01"
-    endDate: "2021-09-01"
-    summary: "Managing team, daily operations and external communication at the student Maker- and Hackerspace at ETH Zurich
-        to foster the creativity, innovativeness and practical skills of fellow students. Various small technical projects
-        in the field of analog and digital electronics, embedded programming and 3D-printing."
-  - organization: "Pfadi Kuonolf"
-    position: "Scout Leader"
-    website: "https://kuonolf.ch"
-    startDate: "2010-09-01"
-    endDate: "2014-09-01"
-    summary: "Organizing various outdoor activities, summer and ski camps for children
-        and teenagers in the local scouting group in Konolfingen."
-education:
-  - institution: "Caltech"
-    area: "Robotics and Control Theory"
-    studyType: "Visiting Student Researcher at AMBER Lab"
-    startDate: "2021-09-01"
-    endDate: "2022-02-01"
-  - institution: "ETH Zurich"
-    area: "Mechanical Engineering - Robotics, Systems and Controls"
-    studyType: "MSc"
-    startDate: "2019-09-01"
-    endDate: "2022-01-01"
-  - institution: "ETH Zurich"
-    area: "Mechanical and Process Engineering"
-    studyType: "BSc"
-    startDate: "2014-09-01"
-    endDate: "2018-08-01"
+  # profiles:
+  #   - network: "Twitter"
+  #     username: "manumerous"
+  #     url: "https://twitter.com/manumerous"
+  #   - network: "LinkedIn"
+  #     username: "Manuel Yves Galliker"
+  #     url: "https://www.linkedin.com/in/manuel-galliker/"
+# work:
+#   - company: "1X Technologies"
+#     position: "Research Engineer Robotic Learning"
+#     website: "https://www.1x.tech/"
+#     startDate: "2024-06-21"
+#     endDate: ""
+#     summary: 
+#       "Leading and coordinating the successful bring up of our humanoid robot Neo from the first prototype to robust dynamic walking using 
+#       NMPC and teleoperated hand control. Developed a reinforcement learning pipeline in NVIDIA Isaac Sim and set up initial C++ controls 
+#       software stack including NMPC, RL Inference Controller, Joint Control API, MuJoCo Sim and CI pipeline. 
+#       (C++, Python, Java, OCS2, Pinocchio, Pytorch, ONNX)"
+#   - company: "1X Technologies"
+#     position: "Team Lead Controls and Embedded"
+#     website: "https://www.1x.tech/"
+#     startDate: "2023-09-01"
+#     endDate: "2024-06-20"
+#     summary: 
+#       "Leading and coordinating the successful bring up of our humanoid robot Neo from the first prototype to robust dynamic walking using 
+#       NMPC and teleoperated hand control. Developed a reinforcement learning pipeline in NVIDIA Isaac Sim and set up initial C++ controls 
+#       software stack including NMPC, RL Inference Controller, Joint Control API, MuJoCo Sim and CI pipeline. 
+#       (C++, Python, Java, OCS2, Pinocchio, Pytorch, ONNX)"
+#     # highlights:
+#     #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
+#     #   - "Successfully won Techcrunch Disrupt"
+#     #   - "Optimized an algorithm that holds the current world record for Weisman Scores"
+#   - company: "1X Technologies"
+#     position: "Senior Robotics Controls Engineer"
+#     website: "https://www.1x.tech/"
+#     startDate: "2022-09-01"
+#     endDate: "2023-08-31"
+#     summary: 
+#       "Developed a real-time motion planning framework for bipedal loco-manipulation using Whole-Body NMPC. Software development, testing 
+#       and system integration of our custom made torque controlled REVO2 electrical motors using embedded Field Oriented Control (FOC). 
+#       Growing the team by successfully hiring two controls and one firmware engineer. (C++, Python, Java, OCS2, Pinocchio, ROS2, EtherCAT)"
+#     # highlights:
+#     #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
+#     #   - "Successfully won Techcrunch Disrupt"
+#     #   - "Optimized an algorithm that holds the current world record for Weisman Scores"
+#   - company: "Wingtra"
+#     position: "Work Student Software & Industrialization Engineer"
+#     website: "https://Wingtra.com"
+#     startDate: "2019-09-01"
+#     endDate: "2020-02-01"
+#     summary: 
+#       "Enhanced Quality control and reliability in the production of an VTOL drone for high precision aerial mapping through
+#       expansion of software automated data collection, analysis and process optimization with a focus on actuators. (KPI
+#       assessment, Python, Qt, Google Sheets API)"
+#     # highlights:
+#     #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
+#     #   - "Successfully won Techcrunch Disrupt"
+#     #   - "Optimized an algorithm that holds the current world record for Weisman Scores"
+#   - company: "Wingtra"
+#     position: "Development Engineer"
+#     website: "https://Wingtra.com"
+#     startDate: "2019-04-01"
+#     endDate: "2019-08-01"
+#     summary: "Improved reliability KPIs of drone through leading various software & hardware projects on automated temperature calibration of IMU, barometer
+#       and airspeed sensor and automated actuator test bench. (Project Management, Altium, Python, C++, Px4, RPi)"
+#     # highlights:
+#     #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
+#     #   - "Successfully won Techcrunch Disrupt"
+#     #   - "Optimized an algorithm that holds the current world record for Weisman Scores"
+#   - company: "Wingtra"
+#     position: "Hardware Development Internship "
+#     website: "https://Wingtra.com"
+#     startDate: "2018-08-01"
+#     endDate: "2019-03-01"
+#     summary: "Improved performance and reliability through extensive sensor evaluation, actuator redesign and debugging of the drone
+#       and roll-out of new manufacturing processes.(Rapid Prototyping, Matlab, Electric Circuit Analysis & Design, Solidworks)"
+#     # highlights:
+#     #   - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
+#     #   - "Successfully won Techcrunch Disrupt"
+#     #   - "Optimized an algorithm that holds the current world record for Weisman Scores"
+# volunteer:
+#   - organization: "AMIV Bastli"
+#     position: "President/Vice President and Treasurer of AMIV Bastli"
+#     website: "https://bastli.ethz.ch"
+#     startDate: "2016-09-01"
+#     endDate: "2021-09-01"
+#     summary: "Managing team, daily operations and external communication at the student Maker- and Hackerspace at ETH Zurich
+#         to foster the creativity, innovativeness and practical skills of fellow students. Various small technical projects
+#         in the field of analog and digital electronics, embedded programming and 3D-printing."
+#   - organization: "Pfadi Kuonolf"
+#     position: "Scout Leader"
+#     website: "https://kuonolf.ch"
+#     startDate: "2010-09-01"
+#     endDate: "2014-09-01"
+#     summary: "Organizing various outdoor activities, summer and ski camps for children
+#         and teenagers in the local scouting group in Konolfingen."
+# education:
+#   - institution: "Caltech"
+#     area: "Robotics and Control Theory"
+#     studyType: "Visiting Student Researcher at AMBER Lab"
+#     startDate: "2021-09-01"
+#     endDate: "2022-02-01"
+#   - institution: "ETH Zurich"
+#     area: "Mechanical Engineering - Robotics, Systems and Controls"
+#     studyType: "MSc"
+#     startDate: "2019-09-01"
+#     endDate: "2022-01-01"
+#   - institution: "ETH Zurich"
+#     area: "Mechanical and Process Engineering"
+#     studyType: "BSc"
+#     startDate: "2014-09-01"
+#     endDate: "2018-08-01"
 
-awards:
-  - title: "Best Oral Paper Award Finalist"
-    date: "2022-11-30"
-    awarder: "IEEE-RAS International Conference on Humanoid Robots"
-    summary: "Selected as one of three finalist for the best paper award at the IEEE-RAS International Conference on Humanoid Robots"
-  - title: "HackZurich Finalist"
-    date: "2020-10-01"
-    awarder: "HackZurich"
-    summary: "Selected as one of the best 25 projects out of more than 300 submissions at
-      Europe's largest hackathon."
-  - title: "SPHAIR Aviation Talents Graduate "
-    date: "2016-10-01"
-    awarder: "SPHAIR, Swiss Confederation"
-    summary: "Completion of the youth pilot selection of the Swiss Confederation by successfully 
-    mastering all aspects of flying a plane within two weeks."
+# awards:
+#   - title: "Best Oral Paper Award Finalist"
+#     date: "2022-11-30"
+#     awarder: "IEEE-RAS International Conference on Humanoid Robots"
+#     summary: "Selected as one of three finalist for the best paper award at the IEEE-RAS International Conference on Humanoid Robots"
+#   - title: "HackZurich Finalist"
+#     date: "2020-10-01"
+#     awarder: "HackZurich"
+#     summary: "Selected as one of the best 25 projects out of more than 300 submissions at
+#       Europe's largest hackathon."
+#   - title: "SPHAIR Aviation Talents Graduate "
+#     date: "2016-10-01"
+#     awarder: "SPHAIR, Swiss Confederation"
+#     summary: "Completion of the youth pilot selection of the Swiss Confederation by successfully 
+#     mastering all aspects of flying a plane within two weeks."
 # skills:
 #   - name: "Web Development"
 #     level: "Master"
@@ -158,24 +159,24 @@ awards:
 #       - "Mpeg"
 #       - "MP4"
 #       - "GIF"
-languages:
-  - language: "German"
-    fluency: "Native speaker"
-  - language: "English"
-    fluency: "Native speaker"
-  - language: "French"
-    fluency: "professional-working-proficiency"
-programming-languages:
-  - language: "C/C++"
-    fluency: "4"
-  - language: "Python"
-    fluency: "4"
-  - language: "Java"
-    fluency: "4"
-  - language: "Matlab"
-    fluency: "4"
-  - language: "C#"
-    fluency: "2"
+# languages:
+#   - language: "German"
+#     fluency: "Native speaker"
+#   - language: "English"
+#     fluency: "Native speaker"
+#   - language: "French"
+#     fluency: "professional-working-proficiency"
+# programming-languages:
+#   - language: "C/C++"
+#     fluency: "4"
+#   - language: "Python"
+#     fluency: "4"
+#   - language: "Java"
+#     fluency: "4"
+#   - language: "Matlab"
+#     fluency: "4"
+#   - language: "C#"
+#     fluency: "2"
 # interests:
 #   - name: "Wildlife"
 #     keywords:
